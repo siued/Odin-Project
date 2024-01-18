@@ -24,6 +24,10 @@ function makeGrid(gridSize) {
         });
         div.style.width = `${960 / gridSize}px`;
         div.style.height = `${960 / gridSize}px`;
+        div.style.minWidth = `${960 / gridSize}px`;
+        div.style.minHeight = `${960 / gridSize}px`;
+        div.style.maxWidth = `${960 / gridSize}px`;
+        div.style.maxHeight = `${960 / gridSize}px`;
         div.draggable = false;
         container.appendChild(div);
     }
