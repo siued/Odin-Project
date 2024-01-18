@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 h1 {
     text-align: center;
 }
@@ -29,7 +33,7 @@ button {
 }
 
 .grid-item {
-    border: 1px solid black;
+    border: 1px solid gray;
     background-color: white;
     flex-grow: 0;
     flex-shrink: 0;
