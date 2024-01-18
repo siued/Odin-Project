@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body-contents {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+header a {
+    margin: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+header, .hero, footer {
+    background-color: #1f2937;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero .image {
+    width: 40%;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 40%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    width: 100px;
+    border-radius: 7px;
+    border-width: 0;
+}
+
+.image {
+    background-color: gray;
+    margin: 20px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.image-div {
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-div p {
+    width: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 20px 100px;
+}
+
+.bold-text#quote-author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.blue-div {
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.blue-div button {
+    border-color: white;
+    border-width: 5px;
+}
+
+footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+}
