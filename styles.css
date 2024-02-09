@@ -1,9 +1,14 @@
 * {
     background-color: #222;
     text-align: center;
-    color: #fff;
+    color: #ececec;
+}
+
+nav {
+    background-color: darkslategray;
 }
 
 li {
     text-align: left;
+    font-size: large;
 }
